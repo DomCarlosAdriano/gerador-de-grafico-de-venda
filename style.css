@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.container h1 {
+  margin: 20px 0;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+input,
+select {
+  padding-left: 3px;
+  height: 25px;
+}
+
+#adiciona {
+  height: 25px;
+  padding: 3px;
+}
+
+table {
+  margin: 20px 0;
+  width: 60%;
+  min-height: 300px;
+  border: 1px solid black;
+  border-spacing: 0;
+  margin-bottom: 9px;
+}
+
+tr td:nth-child(2) {
+  text-align: center;
+}
+
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+#pdf {
+  padding: 5px;
+  height: 30px;
+  margin-bottom: 20px;
+  background-color: red;
+}
+
+.grafico {
+  width: 90%;
+  margin-bottom: 30px;
+}
+
+#mychart {
+  width: 100%;
+}
+
+@media (max-width: 375px) {
+  .inputs {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  input,
+  select {
+    width: 100%;
+  }
+
+  .grafico {
+    opacity: 0;
+  }
+}
