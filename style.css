@@ -65,6 +65,7 @@ td {
   height: 30px;
   margin-bottom: 20px;
   background-color: red;
+  cursor: pointer;
 }
 
 .grafico {
