@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Analise de Vendas</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Analise de vendas</h1>
+      <div class="inputs">
+        <select id="meses">
+          <option value="jan">JANEIRO</option>
+          <option value="fev">FEVEREIRO</option>
+          <option value="mar">MARÇO</option>
+          <option value="abr">ABRIL</option>
+          <option value="maio">MAIO</option>
+          <option value="jun">JUNHO</option>
+          <option value="jul">JULHO</option>
+          <option value="ago">AGOSTO</option>
+          <option value="set">SETEMBRO</option>
+          <option value="out">OUTUBRO</option>
+          <option value="nov">NOVEMBRO</option>
+          <option value="dez">DEZEMBRO</option>
+        </select>
+        <input id="venda" type="number" placeholder="Total de Vendas" />
+        <button id="adiciona">Adicionar</button>
+      </div>
+
+      <table>
+        <tr>
+          <th>MêS</th>
+          <th>VENDAS</th>
+        </tr>
+
+        <tr class="jan">
+          <td>JANEIRO</td>
+          <td class="jan1"></td>
+        </tr>
+
+        <tr class="fev">
+          <td>FEVEREIRO</td>
+          <td class="fev1"></td>
+        </tr>
+
+        <tr class="mar">
+          <td>MARÇO</td>
+          <td class="mar1"></td>
+        </tr>
+
+        <tr class="abr">
+          <td>ABRIL</td>
+          <td class="abr1"></td>
+        </tr>
+
+        <tr class="maio">
+          <td>MAIO</td>
+          <td class="maio1"></td>
+        </tr>
+
+        <tr class="jun">
+          <td>JUNHO</td>
+          <td class="jun1"></td>
+        </tr>
+
+        <tr class="jul">
+          <td>JULHO</td>
+          <td class="jul1"></td>
+        </tr>
+
+        <tr class="ago">
+          <td>AGOSTO</td>
+          <td class="ago1"></td>
+        </tr>
+
+        <tr class="set">
+          <td>SETEMBRO</td>
+          <td class="set1"></td>
+        </tr>
+
+        <tr class="out">
+          <td>OUTUBRO</td>
+          <td class="out1"></td>
+        </tr>
+
+        <tr class="nov">
+          <td>NOVEMBRO</td>
+          <td class="nov1"></td>
+        </tr>
+
+        <tr class="dez">
+          <td>DEZEMBRO</td>
+          <td class="dez1"></td>
+        </tr>
+      </table>
+      <button id="pdf">Baixar Relatorio de Vendas PDF</button>
+
+      <div class="grafico">
+        <canvas id="myChart"></canvas>
+      </div>
+    </div>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+      integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
