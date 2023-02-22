@@ -21,6 +21,14 @@ const pdf = document.querySelector("#pdf");
 btnAdd.addEventListener("click", () => {
   let mes = mesesInput.options[mesesInput.selectedIndex].value;
   var nDeVendas = vendaInput.value;
+  
+    if (
+    vendaInput.value <= -1 ||
+    vendaInput.value === isNaN ||
+    vendaInput.value === ""
+  ) {
+    nDeVendas = 0;
+  }
 
   let div = document.querySelector("." + mes + 1);
   div.innerText = `R$ ${nDeVendas}`;
