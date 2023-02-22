@@ -1,4 +1,4 @@
-<h1 align="center">  Super Mario Bros (sinopse)  </h1>
+<h1 align="center">  Gerador de Grafico de Vendas   </h1>
 
 <p align="center">
 
@@ -26,8 +26,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - jsPdf
 
 ## 💻 Projeto
-
-O Habits é um app para ajudar a rastrear os hábitos.
 
 - [Visite o projeto online](https://domcarlosadriano.github.io/gerador-de-grafico-de-venda/)
 
