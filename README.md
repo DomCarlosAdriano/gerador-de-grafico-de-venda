@@ -2,7 +2,7 @@
 
 <p align="center">
 
-Este é um site que permite ao usuário colocar os dados em uma tabela e gerar um gráfico em tempo real, caso o usuário queira baixar um pdf com o relatório e o gráfico também é possível... <br/>
+Este é um site que permite ao usuário colocar os dados em uma tabela e gerar um gráfico em tempo real, caso o usuário queira baixar um PDF com o relatório e o gráfico também é possível... <br/>
 </p>
 
 <p align="center">
